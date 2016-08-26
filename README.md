@@ -1,9 +1,11 @@
-directx
+directx (for NateCommander)
 =================
 
 About
 ---
-This repo contains headers from the Microsoft DirectX SDK (August 2009) which can be downloaded [from MSDN here](https://www.microsoft.com/en-us/download/details.aspx?id=23549). This repo exists to facilitate building [SDL2](https://github.com/nathan-schubkegel/sdl) from source for [NateCommander](https://github.com/nathan-schubkegel/NateCommander).
+This repository holds headers from the Microsoft DirectX SDK (August 2009) which can be downloaded [from MSDN here](https://www.microsoft.com/en-us/download/details.aspx?id=23549) for use with [NateCommander](https://github.com/nathan-schubkegel/NateCommander). (The full DirectX SDK is not used in order to allow developers to avoid installing the DirectX SDK to build NateCommander.)
+
+The 'master' branch contains the latest utilized release of the headers. The 'NateCommander' branch contains modifications required to build with NateCommander.
 
 Licensing
 ---
